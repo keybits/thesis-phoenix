@@ -64,12 +64,10 @@
 
   <tr><td><h4>Changelog</h4></td></tr>
   <tr>
-    <td><strong>0.3.1</strong></td>
-    - Fixes issue #155 [pr #156](https://github.com/infinitered/thesis-phoenix/pull/156)
-    Ambiguous call to function repo/0 on `mix ecto.migrate` - Phoenix 1.4
-  </tr>
-  <tr>
     <td>
+      <strong>0.3.1</strong><br/>
+      - Fixes issue #155 [pr #156](https://github.com/infinitered/thesis-phoenix/pull/156) Ambiguous call to function repo/0 on `mix ecto.migrate` - Phoenix 1.4
+      <br/><br/>
       <strong>0.3.0</strong><br/>
       - Removes the LZString compression for backups (page revisions) as per the conversation <a href="https://github.com/infinitered/thesis-phoenix/issues/129">here</a>. <br/>
       - <em>Adds migration (run `mix thesis.install && mix ecto.migrate`)</em>. It is important to do this before 0.4.0 as the LZString dependency will be removed then.<br/>
